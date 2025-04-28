@@ -168,7 +168,7 @@ def appendData(tickers):
 
         if new_lines:
         #add new data
-            with open('/home/ubuntu/dfinal_project/final.project.py'+ticker+'.csv', 'a') as file:
+            with open('/home/ubuntu/final_project/final.project.py'+ticker+'.csv', 'a') as file:
                 file.writelines(new_lines)
 
 
